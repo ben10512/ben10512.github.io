@@ -1,0 +1,169 @@
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:100, 300);*/
+/*Imports google fonts. I like font-weight: 100, but would like to see
+ *Font-weight:400 for the body. 
+ */
+ 
+ /*font-size configuration:
+  *information gained from: http://snook.ca/archives/html_and_css/font-size-with-rem
+  */
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	--webkit-text-size-adjust: 100%;
+	font-size: 62.5%;
+	margin: 0 auto;
+	background: #fbfbfb;
+	position: relative;
+	min-height:100%;
+}
+
+hr{
+	margin-top:22px;
+	width: 30%;
+}
+
+/* Specific to the 'Ben Deibert' listed in the header... */
+.logo{
+	float:left;
+}
+/* This results in the nav items displaying in reverse order. Haven't been able to determine
+ * a fix that maintains the whole nav item displaying in one line.
+ */
+.nav-row{
+	float:right;
+}
+.clearNav{
+	clear:both;
+}
+/* font-weight set to 100 (makes header light) */
+header {
+	height:90px;
+	font-family: 'Roboto', sans-serif;
+	font-size:40px; 
+	font-size:4.0rem;
+	font-weight:100;
+	margin: 30px 0;
+	line-height: 50px;
+}
+
+header a:link{
+	text-decoration: none;
+	color:black;
+}
+
+header a:visited {
+	text-decoration: none;
+	color:black;
+}
+
+header a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+header a:active{
+	text-decoration: none;
+	color: black;
+}
+
+/*Code from: http://ianmstew.com/assets/css/ianmstew.css 
+ *Modified to meet my custom div containers.
+ */
+@media (max-width: 592px){
+	header,
+	html,
+	body,
+	focusPoint{
+		width:552px;
+	}
+	
+}
+
+@media (max-width: 720px){
+	header,
+	html,
+	body,
+	focusPoint{
+		width:640px;
+	}
+}
+
+@media (max-width: 3500px){
+	header,
+	html,
+	body,
+	focusPoint{
+		width:780px;
+	}
+}
+
+body{
+	margin:0;
+	padding:0;
+	/*height:100%
+	margin-bottom:60px;*/
+}
+
+/*Font-weight set to bold due to the weight being 100. 
+ *When font weight is set to 400, it affects the total weight of the webpage.
+ */
+.content{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight:400;
+	min-height:100%;
+	margin-bottom:100px;
+}
+
+
+.focusPoint {
+	font-size: 24px;
+	font-size: 2.4 rem;
+	text-align:center;
+	font-weight: 300;
+}
+
+
+/* Nav CSS */
+nav ul{
+}
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+/*Sticky footer created from: http://mystrd.at/modern-clean-css-sticky-footer/  /*
+/* Footer CSS */
+footer{
+	text-align:center;
+	font-size:14px;
+	font-size:1.4rem;
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:100px;
+}
+
+footer a:link{
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+footer a:visited {
+	text-decoration: none;
+	color: black;  
+}
+
+footer a:active{
+	text-decoration: none;
+	color: black;
+}
