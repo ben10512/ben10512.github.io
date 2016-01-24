@@ -26,3 +26,7 @@
 .navbar-default .navbar-brand.active {
     color: #fec503;
 }
+
+body {
+	position: relative;
+}
