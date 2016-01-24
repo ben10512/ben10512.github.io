@@ -7,7 +7,9 @@
   *information gained from: http://snook.ca/archives/html_and_css/font-size-with-rem
   */
 
-
+.container{
+	width:1200px;
+}
 
 hr{
 	margin-top:22px;
