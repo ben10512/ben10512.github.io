@@ -1,7 +1,7 @@
 /*!
  * CSS writen by Ben:
  */
- 
+
 header {
 	text-align: center;
 	color: #fff;
@@ -14,7 +14,8 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 }
-nav ul li{
+
+nav li{
 	display: inline-block;
 }
 .navbar-default .nav li a:hover,
