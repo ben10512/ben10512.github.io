@@ -1,8 +1,21 @@
 /*!
  * CSS writen by Ben:
  */
+ 
+header {
+	text-align: center;
+	color: #fff;
+	background-image: url(../img/welcome.jpg);
+	background-position: center center;
+	background-repeat: none;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 nav ul li{
-	display: inline;
+	display: inline-block;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
