@@ -1,7 +1,9 @@
 /*!
  * CSS writen by Ben:
  */
-
+nav ul li{
+	display: inline;
+}
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
