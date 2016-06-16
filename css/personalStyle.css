@@ -2,15 +2,15 @@
  * CSS writen by Ben:
  */
 
-header {
-	background-attachment: /*fixed,*/ scroll;
-	background-image: url(../img/welcome.jpg);
+.topPage {
+	/*background-attachment: fixed;*/ /* scroll;*/
+	background-image:url("../img/welcome.jpg");
 	background-position: center center;
 	background-repeat: none;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	-o-background-size: cover;
+	/*-o-background-size: cover;*/
 }
 
 nav li{
