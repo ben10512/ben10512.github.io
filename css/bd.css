@@ -6,11 +6,32 @@
  /*font-size configuration:
   *information gained from: http://snook.ca/archives/html_and_css/font-size-with-rem
   */
-
-.container{
-	width:1200px;
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("../fonts/San_Francisco_Ultralight.ttf");
 }
 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("../fonts/San_Francisco_Thin.ttf");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("../fonts/San_Francisco_Regular.ttf");
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 900;
+  src: url("../fonts/San_Francisco_Bold.ttf");
+}
+body{
+	font-family: "San Francisco"
+}
 hr{
 	margin-top:22px;
 	width: 50%;
