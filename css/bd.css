@@ -29,8 +29,9 @@
   font-weight: 900;
   src: url("../fonts/San_Francisco_Bold.ttf");
 }
-body{
+html body{
 	font-family: "San Francisco"
+	height: 100%;
 }
 hr{
 	margin-top:22px;

@@ -2,23 +2,15 @@
  * CSS writen by Ben:
  */
 
-.topPage {
-	position: relative;
+.topPage{
+	background-image: url("../img/welcome.jpg");
+	/*position: relative;*/
   min-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-	background-image:url(../img/welcome.jpg);
   background-position: center center;
   z-index: 1;
-	
-	/*background-attachment: fixed;
-	background-image:url(../img/welcome.jpg);
-	background-position: center center;
-	background-repeat: none;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;*/
-	/*-o-background-size: cover;*/
+
 }
 
 nav li{
@@ -49,11 +41,64 @@ nav li{
     color: #fec503;
 }
 
-body {
+/*body {
 	position: relative;
-}
+}*/
 
 section {
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+} 
+
+/*.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}*/
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-fixed-bg {
+    background-attachment: fixed;
+  }
+}
+.fixed-1{
+	background-image: url("../img/iss.jpg");
+}
+
+.fixed-2{
+	background-image: url("../img/ ");
+}
+
+.fixed-3{
+	background-image: url("../img/ ");
 }
